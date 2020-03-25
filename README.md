@@ -2,7 +2,7 @@
 > Allows to visualize a hierarchic organization. It is an equivalent of a treemap or a dendrogram, where each node of the tree is represented as a circle and its sub-nodes are represented as circles inside of it.
 
 ## Screenshots
-<img src = "https://github.com/LorisLombardo87/circular-mosaic/raw/master/gif/demo2.gif" />
+<img src = "https://github.com/LorisLombardo87/circular-mosaic/raw/master/gif/demo.gif" />
 
 ## Installation
 
