@@ -1,0 +1,9 @@
+{
+	"name" : "Circular Mosaic",
+	"description" : "allows to visualize a hierarchic organization. It is an equivalent of a treemap or a dendrogram, where each node of the tree is represented as a circle and its sub-nodes are represented as circles inside of it.",
+	"icon" : "",
+	"type" : "visualization",
+	"version": "0.0.1",
+	"preview" : "circularmosaic.png",
+	"author": "Loris Lombardo"
+}
