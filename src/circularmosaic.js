@@ -29,7 +29,7 @@ function ($, /*_,*/ props, initProps, extensionUtils, cssContent, qlik, d3, d3v3
 
     extensionUtils.addStyleToHeader(cssContent);
 
-    console.log('Initializing - remove me');
+    //console.log('[Circular Mosaic] - Initializing');
 
     d3.selection.prototype.moveToFront = function() {  
       return this.each(function(){
@@ -571,7 +571,7 @@ function ($, /*_,*/ props, initProps, extensionUtils, cssContent, qlik, d3, d3v3
 
             
             //console.info('[Circular Mosaic] - $element', $element);
-            console.info('[Circular Mosaic] - layout', layout);
+            //console.info('[Circular Mosaic] - layout', layout);
 
             // set the dimensions of the graph
             var width = $element[0].offsetWidth;
@@ -636,7 +636,7 @@ function ($, /*_,*/ props, initProps, extensionUtils, cssContent, qlik, d3, d3v3
                 //[Circular Mosaic] -  qlik data preparation
 
                 qTheme = await app.theme.getApplied();
-                console.info('[Circular Mosaic] - qTheme', qTheme);
+                //console.info('[Circular Mosaic] - qTheme', qTheme);
 
                 prepareData(layout);
 
